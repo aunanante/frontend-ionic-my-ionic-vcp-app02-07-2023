@@ -1,0 +1,52 @@
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+
+    .mat-table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        display: table;
+        border-collapse: collapse;
+        margin: 0px;
+    }
+
+    .mat-row,
+    .mat-header-row {
+        display: table-row;
+    }
+
+    .mat-cell,
+    .mat-header-cell {
+        word-wrap: initial;
+        display: table-cell;
+        padding: 0px 5px;
+        line-break: unset;
+        width: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+    .mat-column-adresse {
+        max-width: 300px !important;
+        min-width: 300px !important;
+    
+    }
+    
+    .mat-column-commerceName {
+        max-width: 300px !important;
+        min-width: 300px !important;
+    
+    }
+
+    .mat-mdc-row:nth-child(even) {
+        background-color: #c1e4eb; /* Set the background color for even rows */
+      }
+      
+      .mat-mdc-row:nth-child(odd) {
+        background-color: #f7f1f5; /* Set the background color for odd rows */
+      }
+}
+
